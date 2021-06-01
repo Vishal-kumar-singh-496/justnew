@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Building the Go code...
       - go build application.go 
-artifacts:
+artifacts: s3://codepipeline-ap-south-1-430929889629/Mydemoapp/
   secondary-artifacts:
     golang_artifacts:
       base-directory: justnew
